@@ -1,4 +1,4 @@
-class Main {
+class Index{
 	// https://www.hackerrank.com/challenges/diagonal-difference/problem?isFullScreen=true
 	diagonalDifference(arr) {
 		let ltr = 0;
@@ -81,12 +81,12 @@ class Main {
 		return total;
 	}
 
-
 }
 
-const main = new Main();
+const main = new Index();
 // console.log(main.diagonalDifference([[-1, 1, -7, -8], [-10, -8, -5, -2], [0, 9, 7, -1], [4, 4, -2, 1]]));
 // main.plusMinus([-4, 3, -9, 0, 4, 1]);
 // main.staircase(6);
 // main.miniMaxSum([1,3,5,7,9]);
 // console.log(main.birthdayCakeCandles([4,3,4,2]));
+console.log(main.bcc([1,3,4,3,4]));
